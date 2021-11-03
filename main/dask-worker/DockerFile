@@ -1,1 +1,1 @@
-FROM pangeo/base-image:test
+FROM pangeo/base-image:master
