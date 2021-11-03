@@ -1,0 +1,13 @@
+dependencies:
+  - bash-completion
+  - code-server >=3.2
+  - dask-labextension
+  - graphviz
+  - ipytree
+  - ipywidgets
+  - jupyterlab
+  - jupyter-server-proxy
+  - jupyter-vscode-proxy
+  - jupyterhub-singleuser
+  - nb_conda_kernels
+  - vim

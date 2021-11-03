@@ -1,0 +1,9 @@
+name: carbonplan
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - git
+  - python=3.9
+  - pip
+  - tzdata

@@ -1,0 +1,5 @@
+dependencies:
+    - dask
+    - distributed
+    - dask-kubernetes
+    - dask-gateway=0.9.0
