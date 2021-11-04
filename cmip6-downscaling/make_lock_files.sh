@@ -22,6 +22,8 @@ echo "prefect"
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/prefect.yaml \
+    -f conda-envs/analysis.yaml \
+    -f conda-envs/dask.yaml \
     -p osx-64 -p linux-64 \
     --filename-template "prefect/conda-{platform}.lock"
 

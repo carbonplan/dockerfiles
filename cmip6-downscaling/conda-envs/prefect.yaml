@@ -1,0 +1,3 @@
+dependencies:
+  - prefect=0.15.5
+  - kubernetes

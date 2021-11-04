@@ -4,6 +4,7 @@ dependencies:
   - code-server >=3.2
   - graphviz
   - ipytree
+  - jupyterlab
   - jupyter-vscode-proxy
   - nb_conda_kernels
   - vim

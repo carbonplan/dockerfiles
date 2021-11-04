@@ -1,0 +1,3 @@
+carbonplan_data
+carbonplan_styles
+git+https://github.com/pangeo-data/scikit-downscale@main
