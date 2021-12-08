@@ -33,7 +33,7 @@ aws-c-sdkutils-0.1.1
 aws-checksums-0.1.12
 aws-crt-cpp-0.17.9
 aws-sdk-cpp-1.9.154
-awscli-1.22.19
+awscli-1.22.20
 azure-core-1.14.0
 azure-datalake-store-0.0.51
 azure-identity-1.7.1
@@ -47,8 +47,8 @@ blinker-1.4
 blosc-1.21.0
 bokeh-2.4.2
 boost-cpp-1.74.0
-boto3-1.20.19
-botocore-1.23.19
+boto3-1.20.20
+botocore-1.23.20
 bottleneck-1.3.2
 branca-0.4.2
 brotli-1.0.9
@@ -66,6 +66,7 @@ cachetools-4.2.4
 cachey-0.2.1
 cairo-1.16.0
 cartopy-0.20.1
+cchardet-2.1.7
 certifi-2021.10.8
 cf_xarray-0.6.1
 cffi-1.15.0
@@ -73,7 +74,7 @@ cfgv-3.3.1
 cfitsio-4.0.0
 cftime-1.5.1.1
 charls-2.2.0
-charset-normalizer-2.0.8
+charset-normalizer-2.0.9
 click-8.0.3
 click-plugins-1.1.1
 cligj-0.7.2
@@ -86,7 +87,7 @@ configobj-5.0.6
 coverage-6.2
 cramjam-2.3.1
 croniter-0.3.36
-cryptography-35.0.0
+cryptography-36.0.0
 curl-7.80.0
 cycler-0.11.0
 cytoolz-0.11.2
@@ -140,7 +141,7 @@ gdal-3.4.0
 gdk-pixbuf-2.42.6
 geopandas-0.10.2
 geopandas-base-0.10.2
-geos-3.10.0
+geos-3.10.1
 geotiff-1.7.0
 geoviews-1.9.2
 geoviews-core-1.9.2
@@ -162,7 +163,7 @@ google-crc32c-1.1.2
 google-resumable-media-2.1.0
 googleapis-common-protos-1.53.0
 graphite2-1.3.13
-graphviz-2.49.3
+graphviz-2.50.0
 grpc-cpp-1.42.0
 grpcio-1.42.0
 gtk2-2.24.33
@@ -177,7 +178,7 @@ heapdict-1.0.1
 holoviews-1.14.6
 httplib2-0.20.2
 hvplot-0.7.3
-hypothesis-6.30.0
+hypothesis-6.30.1
 icu-69.1
 identify-2.3.7
 idna-3.1
@@ -190,7 +191,7 @@ inequality-1.0.0
 iniconfig-1.1.1
 intake-0.6.4
 intake-esm-2021.8.17
-intake-geopandas-0.3.0
+intake-geopandas-0.4.0
 intake-parquet-0.2.3
 intake-stac-0.3.0
 intake-xarray-0.5.0
@@ -250,7 +251,7 @@ libnetcdf-4.8.1
 libnghttp2-1.43.0
 libopenblas-0.3.18
 libpng-1.6.37
-libpq-13.5
+libpq-14.1
 libprotobuf-3.18.1
 libpysal-4.5.1
 librsvg-2.52.4
@@ -354,17 +355,17 @@ pooch-1.5.2
 poppler-21.11.0
 poppler-data-0.4.11
 portalocker-2.3.2
-postgresql-13.5
+postgresql-14.1
 pre-commit-2.16.0
 pre_commit-2.16.0
 prefect-0.15.10
 proj-8.2.0
 prometheus_client-0.12.0
-prompt-toolkit-3.0.22
+prompt-toolkit-3.0.23
 protobuf-3.18.1
 psutil-5.8.0
 ptyprocess-0.7.0
-pulp-2.5.1
+pulp-2.6.0
 py-1.11.0
 py-xgboost-1.5.0
 pyarrow-6.0.1
@@ -375,7 +376,7 @@ pyct-0.4.6
 pyct-core-0.4.6
 pydantic-1.8.2
 pydap-3.2.2
-pygeos-0.11.1
+pygeos-0.12.0
 pygments-2.10.0
 pygraphviz-1.7
 pyjwt-2.3.0
@@ -383,7 +384,7 @@ pykdtree-1.3.4
 pyopenssl-21.0.0
 pyparsing-3.0.6
 pyproj-3.3.0
-pyresample-1.22.1
+pyresample-1.22.2
 pyrsistent-0.18.0
 pysal-2.5.0
 pyshp-2.1.3
@@ -462,7 +463,7 @@ text-unidecode-1.3
 threadpoolctl-3.0.0
 thrift-0.15.0
 tifffile-2021.11.2
-tiledb-2.3.4
+tiledb-2.5.2
 tk-8.6.11
 tobler-0.8.2
 toml-0.10.2
