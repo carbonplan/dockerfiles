@@ -58,6 +58,7 @@ dependencies:
   - seaborn
   - tqdm
   - xarray
+  - xclim
   - xesmf
   - xgboost
   - xlrd

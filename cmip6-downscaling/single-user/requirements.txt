@@ -1,7 +1,7 @@
 carbonplan_data
 carbonplan_styles
 xarray-schema
-git+https://github.com/TomNicholas/datatree@1035a9aaf53e1c133c6e958260259b9cc0e4d293
-git+https://github.com/carbonplan/ndpyramid@05163e27b4facfb2b04665e99a352c335c4a0c9c
-git+https://github.com/pangeo-data/scikit-downscale@147daf0230477d1ea85eef4438cfde7f56c6e442
-git+https://github.com/NCAR/esds-funnel@a9bc51f2698718b45eae6c2077f2e360401a5ade
+git+https://github.com/TomNicholas/datatree@54edbf77fdc756b74bfca00986f4a68e04643b29
+git+https://github.com/carbonplan/ndpyramid@34e6bfbc7d217917f90816e520450269eae3934b
+git+https://github.com/pangeo-data/scikit-downscale@84cd5f45de4aa61445ca74b85505b035f84fbb80
+git+https://github.com/NCAR/xpersist@01639bf7e068011d52ae7a97ec02618e74352f92
