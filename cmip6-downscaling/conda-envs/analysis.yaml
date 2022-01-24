@@ -25,7 +25,9 @@ dependencies:
   - intake-parquet
   - intake-stac
   - intake-xarray
+  - ipykernel
   - matplotlib
+  - nbconvert
   - nc-time-axis
   - netcdf4
   - nodejs
@@ -35,6 +37,7 @@ dependencies:
   - oauth2client
   - openpyxl
   - pandas
+  - papermill
   - pre_commit
   - pydap
   - pykdtree
@@ -63,5 +66,6 @@ dependencies:
   - xgboost
   - xlrd
   - xpublish
+  - xskillscore
   - yarn
   - zarr
