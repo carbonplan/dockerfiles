@@ -1,4 +1,4 @@
 dependencies:
-  - prefect=0.15.10.0
+  - prefect=0.15.13
   - kubernetes
   - cchardet

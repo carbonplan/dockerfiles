@@ -1,20 +1,15 @@
 dependencies:
   - adlfs
   - azure-storage-blob
-  - awscli
-  - boto3
-  - bokeh
   - bottleneck
   - cartopy
   - cftime
   - cmip6_preprocessing
-  - fastparquet
-  - fuzzywuzzy
+  - donfig
   - gcsfs
   - gdal
   - geopandas
   - geoviews
-  - git-crypt
   - h5py
   - h5netcdf
   - hvplot
@@ -22,8 +17,6 @@ dependencies:
   - intake
   - intake-esm
   - intake-geopandas
-  - intake-parquet
-  - intake-stac
   - intake-xarray
   - ipykernel
   - matplotlib
@@ -38,33 +31,29 @@ dependencies:
   - openpyxl
   - pandas
   - papermill
-  - pre_commit
   - pydap
   - pykdtree
   - pygeos
   - pygraphviz
   - pyproj
-  - pyresample
   - pysal
   - pystac
   - pytest
   - python-graphviz
-  - python-wget
   - rasterio
   - rechunker
   - regionmask
   - rioxarray
-  - s3fs
-  - scikit-image
   - scikit-learn
   - scipy
   - seaborn
   - tqdm
+  - universal_pathlib
+  - watermark
   - xarray
   - xclim
   - xesmf
-  - xgboost
-  - xlrd
+  - xpersist
   - xpublish
   - xskillscore
   - yarn

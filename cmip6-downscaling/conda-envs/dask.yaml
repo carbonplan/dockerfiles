@@ -1,2 +1,2 @@
 dependencies:
-    - pangeo-dask=2021.10.24
+    - pangeo-dask=2022.01.31
