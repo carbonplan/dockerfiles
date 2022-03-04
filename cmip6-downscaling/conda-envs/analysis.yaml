@@ -41,7 +41,7 @@ dependencies:
   - pytest
   - python-graphviz
   - rasterio
-  - rechunker
+  - rechunker=0.3.3
   - regionmask
   - rioxarray
   - scikit-learn

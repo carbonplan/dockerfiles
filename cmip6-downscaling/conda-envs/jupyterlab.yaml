@@ -1,5 +1,5 @@
 dependencies:
-  - pangeo-notebook=2022.02.04
+  - pangeo-notebook=2022.02.14
   - bash-completion
   - code-server >=3.2
   - graphviz
