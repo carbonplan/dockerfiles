@@ -1,5 +1,5 @@
 dependencies:
-  - pangeo-notebook=2021.11.02
+  - pangeo-notebook=2022.02.14
   - bash-completion
   - code-server >=3.2
   - graphviz
@@ -7,4 +7,5 @@ dependencies:
   - jupyterlab
   - jupyter-vscode-proxy
   - nb_conda_kernels
+  - pre_commit
   - vim
