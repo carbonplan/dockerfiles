@@ -69,7 +69,7 @@ click-plugins-1.1.1
 cligj-0.7.2
 cloudpickle-2.0.0
 cmip6_preprocessing-0.5.0
-code-server-4.1.0
+code-server-4.2.0
 coin-or-cbc-2.10.7
 coin-or-cgl-0.60.3
 coin-or-clp-1.17.6
@@ -169,7 +169,7 @@ h11-0.13.0
 h5netcdf-0.15.0
 h5py-3.6.0
 hankel-1.1.0
-harfbuzz-4.0.1
+harfbuzz-4.1.0
 hdf4-4.2.15
 hdf5-1.12.1
 heapdict-1.0.1
@@ -224,7 +224,7 @@ kubernetes-1.23.5
 kubernetes-client-1.23.5
 kubernetes-node-1.23.5
 kubernetes-server-1.23.5
-kubernetes_asyncio-22.6.0
+kubernetes_asyncio-22.6.1
 lcms2-2.12
 ld_impl_linux-64-2.36.1
 lerc-3.0
@@ -442,7 +442,7 @@ quantecon-0.5.2
 rasterio-1.2.10
 rasterstats-0.16.0
 readline-8.1
-rechunker-0.3.3
+rechunker-0.4.2
 regionmask-0.9.0
 requests-2.27.1
 requests-oauthlib-1.3.1
