@@ -5,11 +5,13 @@ dependencies:
   - cartopy
   - cftime
   - cmip6_preprocessing
+  - commonmark
   - donfig
   - gcsfs
   - gdal
   - geopandas
   - geoviews
+  - gstools
   - h5py
   - h5netcdf
   - hvplot
@@ -41,8 +43,9 @@ dependencies:
   - pytest
   - python-graphviz
   - rasterio
-  - rechunker=0.3.3
+  - rechunker=0.4.2
   - regionmask
+  - rich
   - rioxarray
   - scikit-learn
   - scipy
