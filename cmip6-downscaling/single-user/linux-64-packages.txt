@@ -144,6 +144,7 @@ geotiff-1.7.1
 geoviews-1.9.5
 geoviews-core-1.9.5
 gettext-0.19.8.1
+gh-2.6.0
 giddy-2.3.3
 giflib-5.2.1
 gmp-6.2.1
@@ -197,7 +198,7 @@ ipywidgets-7.6.5
 isodate-0.6.1
 jbig-2.1
 jedi-0.18.1
-jinja2-3.0.3
+jinja2-3.1.0
 joblib-1.1.0
 jpeg-9e
 json-c-0.15
@@ -347,7 +348,7 @@ oauthlib-3.2.0
 openjpeg-2.4.0
 openmpi-4.1.2
 openpyxl-3.0.9
-openssl-1.1.1l
+openssl-1.1.1n
 packaging-21.3
 pamela-1.0.0
 pandas-1.4.1
@@ -423,7 +424,7 @@ pysocks-1.7.1
 pystac-1.4.0
 pytables-3.7.0
 pytest-7.1.1
-python-3.9.10
+python-3.9.12
 python-box-6.0.1
 python-dateutil-2.8.2
 python-graphviz-0.19.1
@@ -498,7 +499,7 @@ toml-0.10.2
 tomli-2.0.1
 toolz-0.11.2
 tornado-6.1
-tqdm-4.63.0
+tqdm-4.63.1
 traitlets-5.1.1
 typed-ast-1.5.2
 typing-extensions-4.1.1
