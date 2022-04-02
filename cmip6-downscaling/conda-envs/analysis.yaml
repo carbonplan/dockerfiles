@@ -47,6 +47,7 @@ dependencies:
   - regionmask
   - rich
   - rioxarray
+  - scikit-downscale
   - scikit-learn
   - scipy
   - seaborn
