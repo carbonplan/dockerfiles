@@ -1,11 +1,14 @@
 dependencies:
-  - pangeo-notebook=2022.02.14
   - bash-completion
   - code-server >=3.2
+  - dask-labextension
   - gh
   - graphviz
   - ipytree
+  - ipywidgets
+  - jupyterhub-singleuser
   - jupyterlab
+  - jupyter-server-proxy
   - jupyter-vscode-proxy
   - nb_conda_kernels
   - pre_commit

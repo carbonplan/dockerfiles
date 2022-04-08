@@ -1,2 +1,5 @@
 dependencies:
-    - pangeo-dask=2022.02.12
+    - dask=2022.4.0
+    - distributed=2022.4.0
+    - dask-kubernetes=2022.1.0
+    - dask-gateway=0.9.0

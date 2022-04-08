@@ -7,6 +7,7 @@ dependencies:
   - cmip6_preprocessing
   - commonmark
   - donfig
+  - emcee
   - gcsfs
   - gdal
   - geopandas
@@ -24,6 +25,7 @@ dependencies:
   - matplotlib
   - nbconvert
   - nc-time-axis
+  - ndpyramid
   - netcdf4
   - nodejs
   - numba
@@ -39,7 +41,6 @@ dependencies:
   - pygraphviz
   - pyproj
   - pysal
-  - pystac
   - pytest
   - python-graphviz
   - rasterio
@@ -52,13 +53,12 @@ dependencies:
   - scipy
   - seaborn
   - tqdm
-  - universal_pathlib
   - watermark
   - xarray
+  - xarray-datatree
+  - xarray-schema
   - xclim
   - xesmf
-  - xpersist
-  - xpublish
   - xskillscore
   - yarn
   - zarr

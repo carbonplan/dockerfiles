@@ -1,6 +1,3 @@
 carbonplan_data
 carbonplan_styles
-xarray-schema
-xarray-datatree==0.0.4
-ndpyramid==0.0.2
-git+https://github.com/fsspec/universal_pathlib@df97e1ee5b71b5c4e6477bfd40ab299bf448b33d
+git+https://github.com/andersy005/universal_pathlib@7708a3140ac7cfa1241422e9227efcc75e1ece3e
