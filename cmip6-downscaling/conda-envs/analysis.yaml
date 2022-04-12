@@ -25,7 +25,7 @@ dependencies:
   - matplotlib
   - nbconvert
   - nc-time-axis
-  - ndpyramid
+  - ndpyramid=0.0.5
   - netcdf4
   - nodejs
   - numba
