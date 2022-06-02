@@ -4,6 +4,7 @@ dependencies:
   - dask-labextension
   - gh
   - graphviz
+  - htop
   - ipytree
   - ipywidgets
   - jupyterhub-singleuser
