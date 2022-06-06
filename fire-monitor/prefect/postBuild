@@ -1,3 +1,5 @@
 #!/bin/bash
 
 ipython kernel install --user --name=conda-env-notebook-py
+
+npm install -g mapshaper
