@@ -2,6 +2,8 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
+export CARBONPLAN_DATA=gs://carbonplan-data
+
 if [ ! -z "$EXTRA_APT_PACKAGES" ]; then
     echo "EXTRA_APT_PACKAGES environment variable found.  Installing ${EXTRA_APT_PACKAGES}"
     apt update -y
