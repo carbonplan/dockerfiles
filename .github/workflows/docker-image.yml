@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash
+        shell: bash -l {0}
     strategy:
       fail-fast: true # default
       matrix:
@@ -28,7 +28,17 @@ jobs:
           - main
     steps:
       - uses: actions/checkout@v3
-      - name: Setup templates
+      - name: Install Conda environment with Micromamba
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          cache-downloads: true
+          micromamba-version: "*"
+          environment-name: base
+          extra-specs: |
+            python=3.10
+            conda-lock
+      - name: Build environment
         run: |
           cd ${{ matrix.environment }}
-          bash 01_setup.sh
+          01_setup.sh
+          02_make_lock_files.sh
