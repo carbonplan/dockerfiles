@@ -11,4 +11,3 @@ for dir in single-user; do
 
     cd ..
 done
-
