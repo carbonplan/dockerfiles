@@ -36,9 +36,11 @@ dependencies:
   - openpyxl
   - pandas
   - pre_commit
+  - prefect>=2.0
   - pydap
   - pykdtree
   - pygeos
+  - pyjanitor
   - pygraphviz
   - pyproj
   - pyresample
@@ -57,6 +59,7 @@ dependencies:
   - scipy
   - seaborn
   - tqdm
+  - tzdata
   - xarray
   - xesmf
   - xgboost
@@ -64,3 +67,6 @@ dependencies:
   - xpublish
   - yarn
   - zarr
+
+  - pip:
+    - prefect-aws
