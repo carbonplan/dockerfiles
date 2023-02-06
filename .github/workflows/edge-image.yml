@@ -10,9 +10,9 @@ on:
     - cron: "0 0 * * 0" # Updated weekly
   workflow_dispatch:
 
-concurrency:
-  group: docker-image-${{ github.ref }}
-  cancel-in-progress: true
+# concurrency:
+#   group: docker-image-${{ github.ref }}
+#   cancel-in-progress: true
 
 jobs:
   build:
