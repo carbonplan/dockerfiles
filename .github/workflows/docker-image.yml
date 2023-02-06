@@ -1,0 +1,34 @@
+name: Docker Image CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: docker-image-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      fail-fast: true # default
+      matrix:
+        environment:
+          - cmip6-downscaling
+          - fire-monitor
+          - main
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup templates
+        run: |
+          cd ${{ matrix.environment }}
+          bash 01_setup.sh
