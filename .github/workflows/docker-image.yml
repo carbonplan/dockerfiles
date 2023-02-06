@@ -35,8 +35,13 @@ jobs:
           environment-file: ci/environment.yml
           environment-name: conda-lock
 
-      - name: Build environment
+      - name: Generate lock files for ${{ matrix.environment }}
         run: |
           cd ${{ matrix.environment }}
           bash 01_setup.sh
           bash 02_make_lock_files.sh
+
+      - name: Build Docker image for ${{ matrix.environment }}
+        run: |
+          cd ${{ matrix.environment }}
+          bash 03_build.sh

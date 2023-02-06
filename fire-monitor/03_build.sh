@@ -6,6 +6,6 @@ set -e
 for dir in prefect single-user; do
     echo $dir
     cd $dir
-    docker build . -t carbonplan/cmip6-downscaling-$dir:latest
+    docker build . -t carbonplan/fire-monitor-$dir:latest
     cd ..
 done
