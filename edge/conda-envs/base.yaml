@@ -20,6 +20,7 @@ dependencies:
   - gdal
   - geopandas
   - geoviews
+  - gh-scoped-creds
   - git
   - git-crypt
   - h5py
