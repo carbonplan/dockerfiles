@@ -5,6 +5,5 @@ channels:
 dependencies:
   - git
   - python=3.10
-  - gh-scoped-creds
   - pip
   - tzdata

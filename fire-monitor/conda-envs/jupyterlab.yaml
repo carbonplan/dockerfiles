@@ -3,6 +3,7 @@ dependencies:
   - code-server >=3.2
   - dask-labextension
   - gh
+  - gh-scoped-creds
   - graphviz
   - htop
   - ipytree
