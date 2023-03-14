@@ -3,6 +3,7 @@ dependencies:
   - bash-completion
   - code-server >=3.2
   - graphviz
+  - gh-scoped-creds
   - ipytree
   - jupyter-vscode-proxy
   - nb_conda_kernels
