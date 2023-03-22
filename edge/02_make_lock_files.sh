@@ -15,5 +15,3 @@ for dir in single-user; do
     ../list_packages.sh $dir/conda-linux-64.lock | sort > $dir/linux-64-packages.txt
     ../list_packages.sh $dir/conda-osx-64.lock | sort > $dir/osx-64-packages.txt
 done
-
-

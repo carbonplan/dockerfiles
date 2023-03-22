@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash -l {0} 
+        shell: bash -l {0}
     strategy:
       fail-fast: false
 
@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate lock files for edge
         run: |
-          
+
           cd edge
           ./01_setup.sh
           ./02_make_lock_files.sh
