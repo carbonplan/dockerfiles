@@ -2,6 +2,7 @@ name: condalock
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
-  - conda-lock
-  - mamba
+  - python>=3.10
+  - conda-lock>=1.4
+  - conda>=23
+  - mamba>=1.3

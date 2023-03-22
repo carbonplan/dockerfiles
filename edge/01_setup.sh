@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
 for dir in single-user; do
     echo $dir
     mkdir -p $dir

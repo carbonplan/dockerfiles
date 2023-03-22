@@ -76,5 +76,5 @@ dependencies:
   - yarn
   - zarr
 
-  - pip:
-    - prefect-aws
+  # - pip:
+  #   - prefect-aws
