@@ -22,13 +22,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Conda environment with Micromamba
-        uses: mamba-org/provision-with-micromamba@main
+      - name: Setup Conda Environment with Mambaforge
+        uses: conda-incubator/setup-miniconda@v2
         with:
-          cache-downloads: true
-          environment-file: ci/environment.yml
-          environment-name: conda-lock
-
+            # Match base-image/Dockerfile version
+            miniforge-version: latest
+            miniforge-variant: Mambaforge
+            activate-environment: conda-lock
+            use-mamba: true
       - name: Generate lock files for edge
         run: |
 
