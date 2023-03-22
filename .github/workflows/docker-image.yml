@@ -38,13 +38,13 @@ jobs:
       - name: Generate lock files for ${{ matrix.environment }}
         run: |
           cd ${{ matrix.environment }}
-          bash 01_setup.sh
-          bash 02_make_lock_files.sh
+          ./01_setup.sh
+          ./02_make_lock_files.sh
 
       - name: Build Docker image for ${{ matrix.environment }}
         run: |
           cd ${{ matrix.environment }}
-          bash 03_build.sh
+          ./03_build.sh
 
       - name: Login to Docker Hub
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -57,4 +57,4 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           cd ${{ matrix.environment }}
-          bash 04_publish.sh
+          ./04_publish.sh

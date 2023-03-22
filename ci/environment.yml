@@ -1,4 +1,4 @@
-name: condalock
+name: conda-lock
 channels:
   - conda-forge
 dependencies:
