@@ -17,7 +17,7 @@ metadata:
   - url: nodefaults
     used_env_vars: []
   content_hash:
-    linux-64: 4ba00c16e4089a072b3ad5307bd85b7aa12b3d4b17ab6930ea510b64f51ba95e
+    linux-64: 58519514381a90f43d1f1a59897e2ce989ea8e1775add7cec129397c5fae591a
     osx-64: 9f305ce13b29743858f3c1fc66cd2d273a4bfd5c100882193817d5023db8ca7b
   platforms:
   - linux-64
@@ -783,19 +783,6 @@ package:
   version: 2.4.7
 - category: main
   dependencies:
-    __glibc: '>=2.17,<3.0.a0'
-    libgcc-ng: '>=12'
-  hash:
-    md5: 6c2addbd9aa4ee47c76d50c9f0df8cd6
-    sha256: b80c71742df82a2d7cededda82193a927a59bd4952ccd698f10ca25c2a7770e3
-  manager: conda
-  name: libudev1
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libudev1-253-h0b41bf4_0.conda
-  version: '253'
-- category: main
-  dependencies:
     libgcc-ng: '>=12'
   hash:
     md5: ede4266dc02e875fe1ea77b25dd43747
@@ -1280,14 +1267,14 @@ package:
     attr: '>=2.5.1,<2.6.0a0'
     libgcc-ng: '>=12'
   hash:
-    md5: 2d7665abd0997f1a6d4b7596bc27b657
-    sha256: db113b0bacb45533ec6f5c13a548054af8bd0ca2f7583e8bc5989f17e1e1638b
+    md5: d05556c80caffff164d17bdea0105a1a
+    sha256: 4dcf2290b9b90ad2654fbfff52e9c1d49885ce71f0bb853520e2b9d54809605b
   manager: conda
   name: libcap
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libcap-2.66-ha37c62d_0.tar.bz2
-  version: '2.66'
+  url: https://conda.anaconda.org/conda-forge/linux-64/libcap-2.67-he9d0100_0.conda
+  version: '2.67'
 - category: main
   dependencies:
     libgcc-ng: '>=7.5.0'
@@ -1922,6 +1909,20 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.5.0-h6adf6a1_2.conda
   version: 4.5.0
+- category: main
+  dependencies:
+    __glibc: '>=2.17,<3.0.a0'
+    libcap: '>=2.67,<2.68.0a0'
+    libgcc-ng: '>=12'
+  hash:
+    md5: bb38b19a41bb94e8a19dbfb062d499c7
+    sha256: 1419fc6dc85f9aad95df733af4e442feb27da90ed74b9b67dbdc090151bdec24
+  manager: conda
+  name: libudev1
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/libudev1-253-h0b41bf4_1.conda
+  version: '253'
 - category: main
   dependencies:
     __cuda: ''
@@ -3002,21 +3003,21 @@ package:
 - category: main
   dependencies:
     __glibc: '>=2.17,<3.0.a0'
-    libcap: '>=2.66,<2.67.0a0'
+    libcap: '>=2.67,<2.68.0a0'
     libgcc-ng: '>=12'
     libgcrypt: '>=1.10.1,<2.0a0'
     lz4-c: '>=1.9.3,<1.10.0a0'
     xz: '>=5.2.6,<6.0a0'
     zstd: '>=1.5.2,<1.6.0a0'
   hash:
-    md5: 3c5ae9f61f663b3d5e1bf7f7da0c85f5
-    sha256: a181e25a04207179da598a5a89747a026642341e193dca125620f5f4e268804a
+    md5: 9176b1e2cb8beca37a7510b0e801e38f
+    sha256: 13f5db46b7ded028f5b53fd5373e27a47789b9a655b52a92c4b324099602f29a
   manager: conda
   name: libsystemd0
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-252-h2a991cd_0.tar.bz2
-  version: '252'
+  url: https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-253-h8c4010b_1.conda
+  version: '253'
 - category: main
   dependencies:
     giflib: '>=5.2.1,<5.3.0a0'
@@ -4942,27 +4943,19 @@ package:
   version: 4.21.12
 - category: main
   dependencies:
-    alsa-lib: '>=1.2.8,<1.2.9.0a0'
     dbus: '>=1.13.6,<2.0a0'
-    fftw: '>=3.3.10,<4.0a0'
-    gstreamer-orc: '>=0.4.33,<0.5.0a0'
-    jack: '>=1.9.21,<1.10.0a0'
-    libcap: '>=2.66,<2.67.0a0'
     libgcc-ng: '>=12'
     libglib: '>=2.74.1,<3.0a0'
     libsndfile: '>=1.2.0,<1.3.0a0'
-    libsystemd0: '>=252'
-    libtool: '>=2.4.7,<3.0a0'
-    libudev1: '>=252'
-    openssl: '>=3.0.7,<4.0a0'
+    libsystemd0: '>=253'
   hash:
-    md5: dbfc2a8d63a43a11acf4c704e1ef9d0c
-    sha256: aa2aa5b5e2430a3c3d8b24574e5e270c47026740cb706e9be31df81b0627afa6
+    md5: caeb3302ef1dc8b342b20c710a86f8a9
+    sha256: da289229ca472fa17f5c194c86362354f6dc66311502bb44959a93e7bb88e320
   manager: conda
-  name: pulseaudio
+  name: pulseaudio-client
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/pulseaudio-16.1-ha8d29e2_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/pulseaudio-client-16.1-h5195f5e_3.conda
   version: '16.1'
 - category: main
   dependencies:
@@ -6026,6 +6019,31 @@ package:
   version: 23.03.0
 - category: main
   dependencies:
+    alsa-lib: '>=1.2.8,<1.2.9.0a0'
+    dbus: '>=1.13.6,<2.0a0'
+    fftw: '>=3.3.10,<4.0a0'
+    gstreamer-orc: '>=0.4.33,<0.5.0a0'
+    jack: '>=1.9.22,<1.10.0a0'
+    libcap: '>=2.67,<2.68.0a0'
+    libgcc-ng: '>=12'
+    libglib: '>=2.74.1,<3.0a0'
+    libsndfile: '>=1.2.0,<1.3.0a0'
+    libsystemd0: '>=253'
+    libtool: '>=2.4.7,<3.0a0'
+    libudev1: '>=253'
+    openssl: '>=3.1.0,<4.0a0'
+    pulseaudio-client: 16.1 h5195f5e_3
+  hash:
+    md5: 34d9d75ca896f5919c372a34e25f23ea
+    sha256: ce549c137b7d2711a6fe65d07ca9926fe267143d1c72c3f75d058470391c2ed2
+  manager: conda
+  name: pulseaudio-daemon
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/pulseaudio-daemon-16.1-ha8d29e2_3.conda
+  version: '16.1'
+- category: main
+  dependencies:
     libgcc-ng: '>=12'
     python: '>=3.11,<3.12.0a0'
     python_abi: 3.11.* *_cp311
@@ -6688,6 +6706,20 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.38-pyha770c72_0.conda
   version: 3.0.38
+- category: main
+  dependencies:
+    libgcc-ng: '>=12'
+    pulseaudio-client: 16.1 h5195f5e_3
+    pulseaudio-daemon: 16.1 ha8d29e2_3
+  hash:
+    md5: 8b452ab959166d91949af4c2d28f81db
+    sha256: 59f58bbe5ead04537ffcd6262674daf71e9702e88d1c142a38dcd641b4eab936
+  manager: conda
+  name: pulseaudio
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/pulseaudio-16.1-hcb278e6_3.conda
+  version: '16.1'
 - category: main
   dependencies:
     cryptography: '>=38.0.0,<40'

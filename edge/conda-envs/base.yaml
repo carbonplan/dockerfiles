@@ -15,13 +15,13 @@ dependencies:
   - cmip6_preprocessing
   - fastparquet
   - fuzzywuzzy
-  - gcsfs
+  # - gcsfs
   - gdal
   - geopandas
-  - geoviews
+  # - geoviews
   - gh-scoped-creds
-  - git
-  - git-crypt
+  # - git
+  # - git-crypt
   - h5py
   - h5netcdf
   - hvplot
@@ -32,10 +32,10 @@ dependencies:
   - intake-parquet
   - intake-stac
   - intake-xarray
-  - matplotlib
+  # - matplotlib
   - nc-time-axis
   - netcdf4
-  - nodejs
+  # - nodejs
   - numcodecs
   - numpy
   - oauth2client
@@ -73,7 +73,7 @@ dependencies:
   - xgboost
   - xlrd
   - xpublish
-  - yarn
+  # - yarn
   - zarr
 
   # - pip:
