@@ -3,8 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.10
-
+  - python>=3.09
   - adlfs
   - azure-storage-blob
   - awscli
@@ -66,6 +65,7 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
+  - shapely
   - tqdm
   - tzdata
   - xarray
@@ -76,5 +76,5 @@ dependencies:
   - yarn
   - zarr
 
-  - pip:
-    - prefect-aws
+  # - pip:
+  #   - prefect-aws
