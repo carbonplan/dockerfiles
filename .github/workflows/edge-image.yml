@@ -28,6 +28,7 @@ jobs:
             # Match base-image/Dockerfile version
             miniforge-version: latest
             miniforge-variant: Mambaforge
+            environment-file: ci/environment.yml
             activate-environment: conda-lock
             use-mamba: true
       - name: Generate lock files for edge
