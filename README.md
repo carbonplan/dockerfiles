@@ -5,6 +5,20 @@
 
 # carbonplan / envs
 
+
+# Simplify PR
+Current iteration takes env.yaml file(s) > combines them into conda-lock files, then creates docker iamges and publishes them. Conda-lock is failing to solve current environments.
+
+Slimed down version:
+- Multiple env.yaml file(s) per project -> combined into docker image -> pushed. No more conda-lock steps
+
+## derisk
+- Can a single env.yaml file create a docker img?
+- can multiple env.yaml files be combined into a single file for a docker image
+- should pangeo base image be used?
+
+
+
 **curated compute environments**
 
 [![GitHub][github-badge]][github]
