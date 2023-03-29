@@ -2,8 +2,7 @@
 
 set -euxo pipefail
 echo "single-user"
-conda-lock --version
-conda --version
+
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/prefect.yaml \
