@@ -5,33 +5,33 @@ channels:
 dependencies:
   - python=3.10
 
-  - adlfs
-  - cartopy
-  - cf_xarray
-  - cftime
-  - dask>=2023
-  - distributed>=2023
-  - esmpy<8.4 # if this isn't pinned, xesmf will break https://github.com/pangeo-data/xESMF/issues/218
-  - fsspec>=2023
-  - gcsfs>=2023
-  - geopandas
-  - gh-scoped-creds
-  - git
-  - h5py
-  - intake-esm
-  - intake-geopandas
-  - intake-xarray
-  - jupyter
-  - kerchunk
-  - matplotlib
-  - nc-time-axis
-  - netcdf4
-  - pip
-  - pre-commit
-  - prefect >=2.0
-  - rechunker
-  - rioxarray
-  - s3fs>=2023
-  - xarray
-  - xesmf
+  # - adlfs
+  # - cartopy
+  # - cf_xarray
+  # - cftime
+  # - dask>=2023
+  # - distributed>=2023
+  # - esmpy<8.4 # if this isn't pinned, xesmf will break https://github.com/pangeo-data/xESMF/issues/218
+  # - fsspec>=2023
+  # - gcsfs>=2023
+  # - geopandas
+  # - gh-scoped-creds
+  # - git
+  # - h5py
+  # - intake-esm
+  # - intake-geopandas
+  # - intake-xarray
+  # - jupyter
+  # - kerchunk
+  # - matplotlib
+  # - nc-time-axis
+  # - netcdf4
+  # - pip
+  # - pre-commit
+  # - prefect >=2.0
+  # - rechunker
+  # - rioxarray
+  # - s3fs>=2023
+  # - xarray
+  # - xesmf
   - zarr
