@@ -23,15 +23,15 @@ dependencies:
   # - intake-xarray
   # - jupyter
   # - kerchunk
-  # - matplotlib
-  # - nc-time-axis
-  # - netcdf4
-  # - pip
-  # - pre-commit
-  # - prefect >=2.0
-  # - rechunker
-  # - rioxarray
-  # - s3fs>=2023
-  # - xarray
-  # - xesmf
+  - matplotlib
+  - nc-time-axis
+  - netcdf4
+  - pip
+  - pre-commit
+  - prefect >=2.0
+  - rechunker
+  - rioxarray
+  - s3fs>=2023
+  - xarray
+  - xesmf
   - zarr
