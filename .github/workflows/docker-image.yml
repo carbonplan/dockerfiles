@@ -39,11 +39,12 @@ jobs:
       - name: Setup Conda Environment with Mambaforge
         uses: conda-incubator/setup-miniconda@v2
         with:
-          # Match base-image/Dockerfile version
-          miniforge-version: latest
-          miniforge-variant: Mambaforge
-          activate-environment: conda-lock
-          use-mamba: true
+            # Match base-image/Dockerfile version
+            miniforge-version: latest
+            miniforge-variant: Mambaforge
+            environment-file: ci/environment.yml
+            activate-environment: conda-lock
+            use-mamba: true
 
       - name: Generate lock files for ${{ matrix.environment }}
         run: |
