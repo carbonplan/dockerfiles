@@ -10,6 +10,7 @@ conda-lock \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
     -p linux-64 \
+    -k explicit \
     --filename-template "single-user/conda-{platform}.lock"
 
 echo "dask-worker"
@@ -18,6 +19,7 @@ conda-lock \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
     -p linux-64 \
+    -k explicit \
     --filename-template "dask-worker/conda-{platform}.lock"
 
 echo "prefect"
@@ -25,6 +27,7 @@ conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/prefect.yaml \
     -p linux-64 \
+    -k explicit \
     --filename-template "prefect/conda-{platform}.lock"
 
 for dir in dask-worker prefect single-user; do

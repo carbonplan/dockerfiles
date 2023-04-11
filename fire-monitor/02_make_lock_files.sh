@@ -9,6 +9,7 @@ conda-lock \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
     -p osx-64 -p linux-64 \
+    -k explicit \
     --filename-template "single-user/conda-{platform}.lock"
 
 echo "prefect"
@@ -18,6 +19,7 @@ conda-lock \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
     -p osx-64 -p linux-64 \
+    -k explicit \
     --filename-template "prefect/conda-{platform}.lock"
 
 for dir in prefect single-user; do
