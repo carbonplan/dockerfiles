@@ -9,18 +9,18 @@ conda-lock \
     -f conda-envs/jupyterlab.yaml \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
-    -p osx-64 -p linux-64 \
+    -p linux-64 \
     -k explicit \
-    --filename-template "single-user/conda-{platform}.lock"
+    --filename-template "single-user/conda-linux-64.lock"
 
 echo "dask-worker"
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
-    -p osx-64 -p linux-64 \
+    -p linux-64 \
     -k explicit \
-    --filename-template "dask-worker/conda-{platform}.lock"
+    --filename-template "dask-worker/conda-linux-64.lock"
 
 echo "prefect"
 conda-lock \
@@ -28,11 +28,10 @@ conda-lock \
     -f conda-envs/prefect.yaml \
     -f conda-envs/analysis.yaml \
     -f conda-envs/dask.yaml \
-    -p osx-64 -p linux-64 \
+    -p linux-64 \
     -k explicit \
-    --filename-template "prefect/conda-{platform}.lock"
+    --filename-template "prefect/conda-linux-64.lock"
 
 for dir in dask-worker prefect single-user; do
     ../list_packages.sh $dir/conda-linux-64.lock | sort > $dir/linux-64-packages.txt
-    ../list_packages.sh $dir/conda-osx-64.lock | sort > $dir/osx-64-packages.txt
 done
