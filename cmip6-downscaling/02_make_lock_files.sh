@@ -3,8 +3,6 @@
 set -euxo pipefail
 
 echo "single-user"
-conda-lock --version
-conda --version
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/prefect.yaml \
@@ -15,8 +13,6 @@ conda-lock \
     --filename-template "single-user/conda-{platform}.lock"
 
 echo "dask-worker"
-conda-lock --version
-conda --version
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/analysis.yaml \
@@ -25,8 +21,6 @@ conda-lock \
     --filename-template "dask-worker/conda-{platform}.lock"
 
 echo "prefect"
-conda-lock --version
-conda --version
 conda-lock \
     -f conda-envs/base.yaml \
     -f conda-envs/prefect.yaml \

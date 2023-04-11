@@ -3,8 +3,6 @@
 set -euxo pipefail
 
 echo "single-user"
-conda-lock --version
-conda --version
 conda-lock \
     -f conda-envs/base.yaml \
     -p linux-64 \
