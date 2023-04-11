@@ -6,32 +6,76 @@ dependencies:
   - python=3.10
 
   - adlfs
+  - azure-storage-blob
+  - awscli
+  - boto3
+  - bokeh
+  - bottleneck
   - cartopy
-  - cf_xarray
   - cftime
-  - dask>=2023
-  - distributed>=2023
-  - esmpy<8.4 # if this isn't pinned, xesmf will break https://github.com/pangeo-data/xESMF/issues/218
-  - fsspec>=2023
-  - gcsfs>=2023
+  - cmip6_preprocessing
+  - fastparquet
+  - fuzzywuzzy
+  - gcsfs
+  - gdal
   - geopandas
+  - geoviews
   - gh-scoped-creds
   - git
+  - git-crypt
   - h5py
+  - h5netcdf
+  - hvplot
+  - hypothesis
+  - intake
   - intake-esm
   - intake-geopandas
+  - intake-parquet
+  - intake-stac
   - intake-xarray
-  - jupyter
-  - kerchunk
   - matplotlib
   - nc-time-axis
   - netcdf4
+  - nodejs
+  - numcodecs
+  - numpy
+  - oauth2client
+  - openpyxl
+  - pandas
   - pip
-  - pre-commit
-  - prefect >=2.0
+  - pre_commit
+  - prefect
+  - pydap
+  - pykdtree
+  - pygeos
+  - pyjanitor
+  - pygraphviz
+  - pyproj
+  - pyresample
+  - pysal
+  - pystac
+  - pytest
+  - python-graphviz
+  - python-wget
+  - rasterio
   - rechunker
+  - regionmask
   - rioxarray
-  - s3fs>=2023
+  - s3fs
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tqdm
+  - tzdata
   - xarray
   - xesmf
+  - xgboost
+  - xlrd
+  - xpublish
+  - yarn
   - zarr
+
+  - pip:
+    - prefect-aws
+  
