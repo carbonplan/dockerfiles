@@ -75,6 +75,3 @@ dependencies:
   - xpublish
   - yarn
   - zarr
-
-  - pip:
-    - prefect-aws
