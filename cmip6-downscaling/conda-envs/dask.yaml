@@ -1,5 +1,0 @@
-dependencies:
-    - dask=2022.06.0
-    - distributed=2022.06.0
-    - dask-kubernetes=2022.5.2
-    - dask-gateway=0.9.0

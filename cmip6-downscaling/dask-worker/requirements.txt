@@ -1,4 +1,0 @@
-carbonplan_data
-carbonplan_styles
-git+https://github.com/pydata/xarray@v2022.06.0rc0
-git+https://github.com/andersy005/universal_pathlib@7708a3140ac7cfa1241422e9227efcc75e1ece3e
