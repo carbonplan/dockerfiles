@@ -75,7 +75,7 @@ dependencies:
   - xpublish
   - yarn
   - zarr
-
+  - jupyterhub-singleuser>=3.0,<4.0
   - pip:
     - carbonplan-styles
     - prefect-aws
