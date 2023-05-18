@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+
     steps:
 
     # For biggish images, github actions runs out of disk space.
@@ -23,7 +24,7 @@ jobs:
     - name: Checkout files in repo
       uses: actions/checkout@main
 
-    - name: Build and push the image to quay.io
+    - name: Build and push the image to quay.io ${{ matrix.environment }}
       uses: jupyterhub/repo2docker-action@master
       with:
         # Make sure username & password/token pair matches your registry credentials
