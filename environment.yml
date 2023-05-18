@@ -4,7 +4,6 @@ channels:
   - nodefaults
 dependencies:
   - python=3.10
-
   - adlfs
   - azure-storage-blob
   - awscli
@@ -78,4 +77,5 @@ dependencies:
   - jupyterhub-singleuser>=3.0,<4.0
   - pip:
     - carbonplan-styles
+    - git+https://github.com/fsspec/kerchunk.git
     - prefect-aws
