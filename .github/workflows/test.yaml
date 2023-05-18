@@ -28,7 +28,7 @@ jobs:
         DOCKER_REGISTRY: "quay.io"
 
 
-        IMAGE_NAME: "carbonplan+edge_image_builder/edge"
+        IMAGE_NAME: "edge_image_builder/edge"
 
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
