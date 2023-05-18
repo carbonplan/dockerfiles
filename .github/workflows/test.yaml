@@ -3,19 +3,11 @@ name: Test container image build
 on:
   pull_request:
 
+
+
 jobs:
   test-build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash -l {0}
-    strategy:
-      fail-fast: false
-      matrix:
-        environment:
-          - edge
-          - main
-
     steps:
 
     # For biggish images, github actions runs out of disk space.
@@ -31,7 +23,7 @@ jobs:
     - name: checkout files in repo
       uses: actions/checkout@main
 
-    - name: Build the image and push it if `NO_PUSH` disabled ${{ matrix.environment }}
+    - name: Build the image and push it if `NO_PUSH` disabled
       uses: jupyterhub/repo2docker-action@master
       with:
         # NO_PUSH: "false"
