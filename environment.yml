@@ -38,6 +38,7 @@ dependencies:
   - intake-xarray
   - ipytree
   - jupyter
+  - jupyterhub-singleuser>=3.0,<4.0
   - jupyter-vscode-proxy
   - kubernetes
   - matplotlib
