@@ -29,7 +29,7 @@ jobs:
         SHA7="${GITHUB_SHA::7}"
         DOCKER_TAG=$SHA7
         echo "DOCKER_TAG=${DOCKER_TAG}" >> $GITHUB_ENV
-        
+
     - name: Checkout files in repo
       uses: actions/checkout@main
 
