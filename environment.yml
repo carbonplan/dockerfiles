@@ -5,14 +5,16 @@ channels:
 dependencies:
   - python=3.10
   - adlfs
-  - azure-storage-blob
   - awscli
-  - boto3
+  - azure-storage-blob
+  - bash-completion
   - bokeh
+  - boto3
   - bottleneck
   - cartopy
   - cftime
   - cmip6_preprocessing
+  - code-server >=3.2
   - fastparquet
   - fuzzywuzzy
   - gcsfs
@@ -22,8 +24,10 @@ dependencies:
   - gh-scoped-creds
   - git
   - git-crypt
-  - h5py
+  - graphviz
   - h5netcdf
+  - h5py
+  - htop
   - hvplot
   - hypothesis
   - intake
@@ -32,23 +36,31 @@ dependencies:
   - intake-parquet
   - intake-stac
   - intake-xarray
+  - ipytree
+  - jupyter
+  - jupyter-vscode-proxy
+  - kubernetes
   - matplotlib
+  - nb_conda_kernels
   - nc-time-axis
   - netcdf4
   - nodejs
+  - numba
   - numcodecs
   - numpy
   - oauth2client
   - openpyxl
   - pandas
+  - pangeo-dask>=2023.01
+  - pangeo-notebook >= 2023.01
   - pip
   - pre_commit
-  - prefect
+  - prefect>=2.0
   - pydap
-  - pykdtree
   - pygeos
-  - pyjanitor
   - pygraphviz
+  - pyjanitor
+  - pykdtree
   - pyproj
   - pyresample
   - pysal
@@ -67,14 +79,16 @@ dependencies:
   - seaborn
   - tqdm
   - tzdata
+  - vim
   - xarray
+  - xclim
   - xesmf
   - xgboost
   - xlrd
   - xpublish
   - yarn
   - zarr
-  - jupyterhub-singleuser>=3.0,<4.0
+
   - pip:
     - carbonplan-styles
     - git+https://github.com/fsspec/kerchunk.git
