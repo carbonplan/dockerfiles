@@ -1,27 +1,19 @@
-name: carbonplan
+name: carbonplan-notebook
 channels:
   - conda-forge
   - nodefaults
 dependencies:
   - python=3.10
-  - adlfs
-  - awscli
-  - azure-storage-blob
   - code-server >=3.2
-  - gcsfs
   - gh-scoped-creds
-  - git
-  - jupyter
   - jupyterhub-singleuser>=3.0,<4.0
   - jupyter-vscode-proxy
-  - matplotlib
-  - nodejs
   - numpy
   - pandas
   - pip
   - pre_commit
+  - python-build
   - pytest
   - s3fs
-  - vim
   - xarray
   - zarr
