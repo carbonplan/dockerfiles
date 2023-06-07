@@ -23,10 +23,10 @@ jobs:
         sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc
         df -h
 
-    - name: Set Env Variables
+    - name: Set Environment Variables
       run: |
 
-        echo "DATE_TAG=$(TZ='America/Seattle' date +'%Y%m%d') >> "$GITHUB_ENV"
+        echo "DATE_TAG=$(TZ='America/Seattle' date +'%Y%m%d')" >> "$GITHUB_ENV"
 
     - name: Checkout files in repo
       uses: actions/checkout@main
