@@ -1,3 +1,7 @@
+# // Copyright (c) 2i2c-org
+# // Distributed under the terms of the Modified BSD License.
+
+
 name: Build and push container image
 
 on:
