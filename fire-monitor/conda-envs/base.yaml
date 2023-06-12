@@ -1,9 +1,0 @@
-name: carbonplan
-channels:
-  - conda-forge
-  - nodefaults
-dependencies:
-  - python=3.9
-  - pip
-  - gh-scoped-creds
-  - tzdata
