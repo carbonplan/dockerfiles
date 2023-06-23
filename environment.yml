@@ -39,7 +39,6 @@ dependencies:
   - ipytree
   - jupyter
   - jupyterhub-singleuser>=3.0,<4.0
-  - jupyter-vscode-proxy
   - kubernetes
   - matplotlib
   - nb_conda_kernels
@@ -93,5 +92,6 @@ dependencies:
   - pip:
     - carbonplan-styles
     - git+https://github.com/fsspec/kerchunk.git
+    - jupyter-vscode-proxy
     - jupyterlab-s3-browser>=0.12
     - prefect-aws
