@@ -15,7 +15,7 @@ dependencies:
   - cftime
   - cmip6_preprocessing
   - code-server >=3.2
-  - compilers -y 
+  - compilers
   - fastparquet
   - fuzzywuzzy
   - emacs
