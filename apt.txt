@@ -1,5 +1,3 @@
-
-# utilities
 wget
 curl
 htop
@@ -9,8 +7,6 @@ unzip
 less
 make
 bc
-
-# development utilities
 openssh-client
 tmux
 xvfb
