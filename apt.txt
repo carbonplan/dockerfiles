@@ -11,12 +11,7 @@ make
 bc
 
 # development utilities
-git
 openssh-client
 tmux
 xvfb
 
-# editors
-nano
-vim
-emacs
