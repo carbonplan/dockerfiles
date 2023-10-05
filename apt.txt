@@ -1,0 +1,12 @@
+wget
+curl
+htop
+tree
+zip
+unzip
+less
+make
+bc
+openssh-client
+tmux
+xvfb
