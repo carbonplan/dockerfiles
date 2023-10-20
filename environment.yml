@@ -86,6 +86,7 @@ dependencies:
   - tzdata
   - vim
   - xarray
+  - xarray-datatree
   - xclim
   - xesmf
   - xgboost
