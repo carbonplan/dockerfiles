@@ -1,5 +1,5 @@
 # Inherit from an upstream image
-FROM jupyter/base-notebook:2023-10-20
+FROM jupyter/base-notebook:2023-05-30
 
 COPY environment.yml /tmp/environment.yml
 
