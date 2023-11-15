@@ -8,7 +8,7 @@ dependencies:
   - awscli
   - azure-storage-blob
   - bash-completion
-  - bokeh
+  - bokeh<=3.2.2  # Necessary until https://github.com/dask/distributed/issues/8333 is resolved
   - boto3
   - bottleneck
   - cartopy
