@@ -63,6 +63,7 @@ dependencies:
   - prefect>=2.0
   - pydap
   - pygeos
+  - pygmt
   - pygraphviz
   - pyjanitor
   - pykdtree
