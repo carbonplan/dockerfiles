@@ -99,4 +99,5 @@ dependencies:
     - carbonplan-styles
     - git+https://github.com/fsspec/kerchunk.git
     - jupyterlab-s3-browser>=0.12
+    - jupyter-tree-download
     - prefect-aws
